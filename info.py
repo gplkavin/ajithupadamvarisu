@@ -66,6 +66,6 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 class Config(object):
 
-      SHORTENER = environ.get('SHORTENER', "tnlink.in")
+      SHORTENER = environ.get('SHORTENER', "earnspace.in")
 
-      SHORTENER_API = environ.get('SHORTENER_API', "85a34b0ad8254c6d93e3a83c13148a2254c3014c")
+      SHORTENER_API = environ.get('SHORTENER_API', "d3fa8bfe1ca4ffae80672da5b3a86028addc6466")
